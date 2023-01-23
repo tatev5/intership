@@ -16,24 +16,24 @@
             <div class="context">
                 <p class="letUsText">Let us know how we can improve freeCodeCamp</p>
                 <div class="namendEmail">
-                    <div>
+                    <div class="nameClass">
                         <label for="name"><sup>*&nbsp;</sup>Name:</label>
-                        <input type="text" id="name" size="36px" placeholder="Enter your name">
+                        <input type="text" id="name" size="36px" class="input" placeholder="Enter your name">
                     </div>
     
                     <div class="emailLabelandinp">
                         <label for="email"><sup>*&nbsp;</sup>Email:</label>
-                        <input type="email" id="email" size="36px" placeholder="Enter your Email" class="email">
+                        <input type="email" id="email" size="36px"  class="input" placeholder="Enter your Email" class="email">
                     </div>
                     <div class="agelabelinput">
                         <label for="age"><sup>*&nbsp;</sup>Age:</label>
-                        <input type="number" id="age" size="45px" placeholder="Age" class="age">
+                        <input type="number" id="age" size="45px" placeholder="Age"  class="age input">
                     </div>
                 </div>
                 
-                <div>
+                <div class="selectdecribes">
                     <label for="name">Which option best describes yur current role?</label>
-                    <select>
+                    <select class="selected">
                         <option>Student</option>
                         <option>Worker</option>
                     </select>
@@ -57,25 +57,28 @@
 
                 </div>
 
-                <div>
+                <div class="FCCClass">
                     <p> <sup>*</sup> What do you like most in FCC: </p>
-                    <select>
+                    <select class="fccSelect">
                         <option>Select an option</option>
                     </select>
                 </div>
-                <div>
-                    <p> <sup>*</sup>Things that should be improbed in the future (Check all that apply):</p>
-                    <div><input type="checkbox" id="frontend">
-                        <label for="frontend">Front-end Projects</label>
+                <div class="FrontorBackend">
+                    <p class="checkParagraph"> Things that should be improbed in the future <span class="check">(Check all that apply):</span> </p>
+                    <div class="checkbox">
+                        <div><input type="checkbox" id="frontend">
+                            <label for="frontend">Front-end Projects</label>
+                        </div>
+                        <div> <input type="checkbox" id="backend">
+                            <label for="backend">Back-end Projects</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" id="visualization">
+                            <label for="visualization">Data Visualization</label>
+                        </div>
                     </div>
-                    <div> <input type="checkbox" id="backend">
-                        <label for="backend">Back-end Projects</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" id="visualization">
-                        <label for="visualization">Data Visualization</label>
-                    </div>
+                    
 
 
                 </div>
