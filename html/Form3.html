@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titleSurvey">Survey Form</h1>
+        <div class="main">
+            <div class="context">
+                <p class="letUsText">Let us know how we can improve freeCodeCamp</p>
+                <div class="namendEmail">
+                    <div>
+                        <label for="name"><sup>*&nbsp;</sup>Name:</label>
+                        <input type="text" id="name" size="36px" placeholder="Enter your name">
+                    </div>
+    
+                    <div class="emailLabelandinp">
+                        <label for="email"><sup>*&nbsp;</sup>Email:</label>
+                        <input type="email" id="email" size="36px" placeholder="Enter your Email" class="email">
+                    </div>
+                    <div class="agelabelinput">
+                        <label for="age"><sup>*&nbsp;</sup>Age:</label>
+                        <input type="number" id="age" size="45px" placeholder="Age" class="age">
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="name">Which option best describes yur current role?</label>
+                    <select>
+                        <option>Student</option>
+                        <option>Worker</option>
+                    </select>
+                </div>
+                <div class="freeCodeCamp">
+                    <p> <sup>*</sup>How likely is that you would recommend <span class="frecodecampSpan">freeCodeCamp to
+                            a friend?</span> </p>
+                    <div class="radioButton">
+                        <div>
+                            <input type="radio" id="Definitely" name="freeCode">
+                            <label for="Definitely">Definitely</label>
+                        </div>
+                        <div><input type="radio" id="maybe" name="freeCode">
+                            <label for="maybe">Maybe</label>
+                        </div>
+                        <div><input type="radio" id="notsure" name="freeCode">
+                            <label for="notsure">Not sure</label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <p> <sup>*</sup> What do you like most in FCC: </p>
+                    <select>
+                        <option>Select an option</option>
+                    </select>
+                </div>
+                <div>
+                    <p> <sup>*</sup>Things that should be improbed in the future (Check all that apply):</p>
+                    <div><input type="checkbox" id="frontend">
+                        <label for="frontend">Front-end Projects</label>
+                    </div>
+                    <div> <input type="checkbox" id="backend">
+                        <label for="backend">Back-end Projects</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="visualization">
+                        <label for="visualization">Data Visualization</label>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.first_flag_color{
+    background: white;
+    content: ""; 
+    height: 150px; 
+    left: 35%;
+    position: absolute;
+    top: 400px;
+    width: 520px;
+}
+.second_flag_color {
+    background: white; 
+    height: 550px;
+    position: relative;
+    left: 42%; 
+    top: 230px;
+    width: 170px; 
+}

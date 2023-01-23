@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:0;
+   box-sizing: border-box;
+  }
+.section{
+    background-image: url(../images/6166a4819909b7198888e883_pexels-daria-liudnaya.webp);
+    width: 100vw;
+   
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.sectionTitle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 95px;
+    position: relative;
+    top: 270px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.menu{
+    position: relative;
+}
+.title{
+    float: left;
+    position: relative;
+    left: 300px;
+    top: 20px;
+    font-size: 28px;
+    
+
+}
+.menuBar{
+    float: right;
+    list-style: none;
+    display: flex;
+    right: 450px;
+    position: relative;
+    top: 20px;
+}
+.menuBar  li a{
+    text-decoration: none;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    color: black;
+}
+.menuBar  li ul li{
+    list-style: none;
+    display: none;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+.header-menu{
+    background: white;
+    width: 100%;
+    height: 70px;
+}
+.iconbag{
+    width: 30px;
+}
+.lianda{
+    position: relative;
+    top: 5px;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 270px;  
+    font-size: 20px; 
+    font-family: 'DM Sans', sans-serif;
+}
+.shopnow{
+    margin: 300px 600px;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    align-items: center;
+    position: relative;
+    top: 30px;
+
+}
+.shopnow .button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+}

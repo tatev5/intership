@@ -1,0 +1,10 @@
+.choose{
+    border-radius: 25px;
+    width: 80px;
+    height: 25px;
+    border: 1px solid gray;
+}
+.submit{
+    position: relative;
+    right: 25px;
+}

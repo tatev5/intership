@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.first_color,.second_color,.third_color{
+width: 100%;
+}
+.first_color{
+    background-color: blue;
+}
+.second_color{
+    background-color:white;
+}
+.third_color{
+    background-color: rgb(200, 0, 33);
+}

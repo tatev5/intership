@@ -1,0 +1,78 @@
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 450px;
+    border: 1px solid black;
+}
+.title{
+    margin: 20px auto;
+    width: 200px;
+    font-size: 30px;
+    
+}
+.main{
+    position: relative;
+    left: 35px;
+}
+.labelStreet{
+    position: relative;
+    right: 19px;    
+}
+.StreetAddress{
+    position: relative;
+    right: 17px;
+    width: 250px;
+}
+.inputWidth{
+    width: 100px;
+}
+.labelEmail{
+    position: relative;
+    right: 25px;
+}
+.labelPostcode{
+    position: relative;
+    right: 10px;
+}
+#postcode{
+    position: relative;
+    right: 7px;
+    width: 65px;
+}
+#TownCity{
+    position: relative;
+    left: 10px; 
+} .mob{
+    position: relative;
+    left: 28px; 
+}
+.tele{
+    position: relative;
+    left: 8px;
+}
+.labelMobile{
+    position: relative;
+    left: 25px;
+}
+.emailAddress{
+    position: relative;
+    right: 22px;
+    width: 250px;
+}
+.labelTown{
+    left: 5px;
+    position: relative;
+}
+.labeltele{
+    left: 5px;
+    position: relative;
+}
+.text{
+    left: 25%;
+    position: relative;
+    font-size: 13px;
+}
+.Submit{
+    position: relative;
+    left: 35%;
+}

@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+}.container{
+    background-color: rgb(182, 214, 208);
+width: 100vw;
+height: 100vh;
+}
+.main{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    top: 45px;
+}
+.titleSurvey{
+   position: relative;
+   top: 10px;
+   left:50%;
+    width: 300px;
+}
+.context{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    width:500px ;
+}
+.radioButton{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    right: 35px;
+    top: 3px;
+}
+.freeCodeCamp{
+    display: flex;
+}
+.frecodecampSpan{
+    position: relative;
+    left: 100px;
+
+}
+
+ .letUsText{
+    position: relative;
+    right: 25px;
+    
+}
+.namendEmail{
+  margin: 25px auto;
+}
+#name{
+    height: 20px;
+}
+.agelabelinput{
+    position: relative;
+    left: 10px;
+}
+.agelabelinput input{
+    width: 272px;
+    height: 20px;
+}
+
+.age{
+    height: 20px;
+}
+.email{
+    height: 20px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form1.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My feedback form</h2>
+   
+    <ul>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </li>
+        <li>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </li>
+        <li>
+           Please check all the emotions that apply to you:
+           <ul type="disc">
+            <li>
+                <label for="angry">Angry</label>
+                <input type="checkbox" checked id="angry">
+            </li>
+            <li>
+                <label for="sad">Sad</label>
+                <input type="checkbox"  id="sad">
+            </li>
+            <li>
+                <label for="happy">Happy</label>
+                <input type="checkbox"  id="happy">
+            </li>
+            <li>
+                <label for="ambivalent">Ambivalent</label>
+                <input type="checkbox"  id="ambivalent">
+            </li>
+           </ul>
+        </li>
+        <li>
+           How satisfied were you with our service?
+            <ul type="disc">
+             <li>
+                 <label for="very_satisfied">Very satisfied</label>
+                 <input type="radio" name="service" checked  id="very_satisfied">
+             </li>
+             <li>
+                 <label for="satisfied">Satisfied</label>
+                 <input type="radio" name="service"   id="satisfied">
+             </li>
+             <li>
+                 <label for="didntCare">Didn't care</label>
+                 <input type="radio" name="service"   id="didntCare">
+             </li>
+             <li>
+                 <label for="dissatisfied">Dissatisfied</label>
+                 <input type="radio"  name="service"  id="dissatisfied">
+             </li>
+             <li>
+                <label for="VeryDissatisfied">Very dissatisfied</label>
+                <input type="radio"   name="service"  id="VeryDissatisfied">
+            </li>
+            </ul>
+         </li>
+         <li>
+            <label for="comment">Further comments:</label>
+         <textarea  id="" cols="30" rows="5" id="comment"></textarea>
+        </li>
+        <li>
+            <label for="bioPhoto">Bio photo:</label>
+            <input type="text" id="bioPhoto">
+            <input type="file" value="Choose..."/> 
+        </li>
+        <li>
+            <label for="visited">Location visited:</label>
+            <select>
+                <option>Select location</option>
+            </select>
+        </li>
+    </ul>
+
+<ul class="submit">
+    <li>
+        <button class="choose">submit</button></li>
+    </ul>
+</body>
+</html>

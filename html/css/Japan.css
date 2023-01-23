@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    width: 100vw;
+   
+}
+.first_color{
+    background-color: rgb(200, 0, 33);
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+   margin: 250px auto;
+}
+
