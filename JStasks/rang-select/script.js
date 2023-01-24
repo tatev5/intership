@@ -19,24 +19,18 @@ for(let i=0;i<divs.length;i++){
     arr.push(divs[i].id)
     
     divs[i].onclick=function(e){
-       
-            
-   secondArr.push(divs[i].id)
-   if(i>secondArr[0]&& i<secondArr[1]){
+  // e.target.style.backgroundColor='red'
+   secondArr.push(arr[i])
+   if(Number(secondArr[0]>secondArr[1])){
     e.target.style.backgroundColor='red'
-   for(let j=secondArr[0];j<secondArr[1];j++){
-    console.log(secondArr[0])
-   
-     e.target.style.backgroundColor='red'
-    }
    }
-   e.target.style.backgroundColor='red'
     }
 }
     
 
 
-console.log(secondArr)
+console.log(arr)
 
+console.log(secondArr)
 
 
