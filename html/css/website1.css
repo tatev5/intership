@@ -6,7 +6,8 @@
 .section{
     background-image: url(../images/6166a4819909b7198888e883_pexels-daria-liudnaya.webp);
     width: 100vw;
-   background:cover;
+   background-size: cover;
+   background-position: unset;
     background-repeat: no-repeat;
     position: absolute;
 }

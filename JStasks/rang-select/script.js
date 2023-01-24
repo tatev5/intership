@@ -1,7 +1,6 @@
 for(let i =1;i<=20;i++){
     let newDiv=document.createElement('div');
     newDiv.setAttribute('id',`${i}`)
-
     myNewdiv.appendChild(newDiv)
     newDiv.style.backgroundColor='green';
     newDiv.style.width='100px';
@@ -18,23 +17,24 @@ let  secondArr=[]
 
 for(let i=0;i<divs.length;i++){
     arr.push(divs[i].id)
-    for(let j=secondArr[0];j<secondArr[1];i++){
-     
-    }
-    divs[i].onclick=function(e){
     
+    divs[i].onclick=function(e){
+       
+            
    secondArr.push(divs[i].id)
-   for(let j=0; j<secondArr.length;j++){
+   if(i>secondArr[0]&& i<secondArr[1]){
+    e.target.style.backgroundColor='red'
+   for(let j=secondArr[0];j<secondArr[1];j++){
     console.log(secondArr[0])
-    if(Number(secondArr[0])>Number(secondArr[1])){
-        divs.target.style.backgroundColor='red'
+   
+     e.target.style.backgroundColor='red'
     }
    }
-         
+   e.target.style.backgroundColor='red'
     }
- 
-    
 }
+    
+
 
 console.log(secondArr)
 
