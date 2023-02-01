@@ -23,6 +23,7 @@ for(let i=0;i<divs.length;i++){
    secondArr.push(arr[i])
    if(Number(secondArr[0]>secondArr[1])){
     e.target.style.backgroundColor='red'
+    
    }
     }
 }
