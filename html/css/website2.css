@@ -1,12 +1,15 @@
 * {
-    box-sizing: border-box;
+   
     margin: 0;
     padding: 0;
+  }
+  body{
+    background-color: #f5f0f0;
   }
  .parent{
   background:url(../images/forest-nature-cabin.jpeg) no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     background-size: cover;
  } 
   
@@ -15,14 +18,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
+    color: white;
     position: relative;
     top: 30px;
   }
   
   .brand-title {
-    font-size: 1.5rem;
+    font-size: 35px;
     margin: 0.8rem;
+    position: relative;
+    left: 40px;
    
   }
   
@@ -36,13 +41,11 @@
     list-style: none;
   }
   
-  .navbar-links li:hover {
-    background-color: #555;
-  }
+ 
   
   .navbar-links li a {
     text-decoration: none;
-    color: black;
+    color: #cdcccc;
     padding: 1rem;
     display: block;
   }
@@ -67,7 +70,7 @@
   .titleandparagraph{
     position: relative;
     top: 50%;
-    left: 35px;
+    margin-left: 55px;
   }
   .titleHolidays{
     color: white;
@@ -82,16 +85,267 @@
 }
 
 .listbutton{
-  width: 150px;
-  height: 25px;
+  width: 250px;
+  height: 40px;
   background-color: #2a4469;
   border: none;
   border-radius: 5px;
   position: relative;
   top: 15px;
   color: white;
+  cursor: pointer;
 }
-  @media (max-width: 400px) {
+.navbar-links{
+  position: relative;
+  right: 40px;
+}
+
+.completeSecondPeace{
+  background-color: white;
+    width: 90vw;
+    height: 55vh;
+    position: relative;
+    top: 425px;
+    left: 55px;
+    border-radius: 8px;
+}
+.professionally{
+  display: flex;
+  margin-top: 155px;
+  margin-left:15% ;
+}
+.title-proff{
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+  top: 55px;
+}
+.professionally div img{
+  margin-left: 50%;
+}
+.spantext{
+  margin-left: 40%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.text3{
+  position: relative;
+  left: 20px;
+}
+.imgandtext{
+  margin-top: 40px;
+}
+
+
+.paragraphText{
+  position: relative;
+    top: 20px;
+    width: 340px;
+    text-align: center;
+    margin-left: 50px;
+    color: gray;
+}
+.expertsTechnology{
+  margin-top: 500px;
+  margin-left: 55px;
+
+
+}
+.expertsTechnology p{
+  color: gray;
+  font-size: 20px;
+}
+
+
+.TechnologyHospital{
+  width: 90vw;
+  height: 55vh;
+}
+.techDiv{
+  display: flex;
+  margin-top: 155px;
+  margin-left: 10%;
+}
+.circle{
+  display: flex;
+  margin-left: 16%;
+}
+.expertsTechnology h1{
+ font-size: 45px;
+}
+.top-circle {
+  width: 6rem;
+  height: 3rem;
+  background-color: #77cefd;
+  border-radius: 10rem 10rem 0 0;
+  margin-left: 45%
+}
+.main-sec,.main-thrd{
+  margin-left: 40px;
+}
+.bottom-circle{
+  width: 6rem;
+  height: 3rem;
+  background-color: #1a6f9d;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  margin-left: 45%;
+}
+.left-circle{
+  width: 3rem;
+  height: 6rem;
+  background-color: #1a6f9d;
+  border-radius: 100% 0 0 100%/50% 0 0 50%;
+  margin-left: 24%;
+}
+.right-circle{
+  width: 3rem;
+  height: 6rem;
+  background-color: #77cefd;
+  border-radius: 0 100% 100% 0/0 50% 50% 0;
+  margin-left: 5%;
+}
+.spantextHosAndBus{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 35%
+}
+
+.textParagraphs{
+  position: relative;
+    top: 20px;
+    width: 270px;
+    text-align: center;
+    margin-left: 50px;
+    color: gray;
+}
+
+.spantextHosAndBus3{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 14%;
+}
+.gueestHouser{
+  color: black;
+}
+.mini-top-circle{
+  width: 50px;
+  height: 30px;
+  background-color: #1a6f9d;
+  border-radius: 10rem 10rem 0 0;
+  transform: rotate(320deg);
+}
+
+.mini-left-circle{
+  width: 50px;
+  height: 30px;
+  background-color: #77cefd;
+  border-radius: 10rem 10rem 0 0;
+  position: relative;
+  left: 15px;
+  transform: rotate(45deg);
+}
+.mini-right-circle{
+  width: 50px;
+  height: 30px;
+  background-color: #77cefd;
+  border-radius: 10rem 10rem 0 0;
+  position: relative;
+  top: 27px;
+  transform: rotate(227deg);
+}
+.mini-bottom-circle{
+  width: 50px;
+    height: 30px;
+    background-color: #1a6f9d;
+    border-radius: 10rem 10rem 0 0;
+    position: relative;
+    left: 11px;
+    top: 32px;
+    transform: rotate(142deg);
+}
+.circle-mini{
+  display: flex;
+  margin-left: 36%;
+}
+.imgandtext3{
+  margin-top: 110px;
+}
+.imgandtext2{
+  margin-top: 75px;
+}
+.TestIm{
+  margin-left: 55px;
+}
+.titleTestimonials{
+  font-size: 40px;
+}
+.TestIm p{
+  position: relative;
+  top:5px;
+  color: gray;
+  font-size: 20px;
+}
+.GuestHouserOwner{
+  margin-left: 110px;
+  margin-top:50px;
+  display: flex;
+}
+.GuestHouserOwner img{
+  width: 235px;
+}
+.commentOwner{
+
+  background-color: white;
+  width: 48%;
+  margin-left: 105px;
+  text-align: center;
+  padding-top: 50px;
+  height: 130px;
+  border-radius: 10px;
+
+}
+.commentOwner> p{
+  line-height: 25px;
+  width: 78%;
+  justify-content: space-between;
+  margin-left: 80px;
+  align-items: center;
+  font-size: 18px;
+}
+  .commentOwner::before,
+  .commentOwner::after {
+    color: #c6c6c6;
+    font-size: 11rem;
+    font-weight: 400;
+    line-height: 0.1em;
+  }
+  .commentOwner::before {
+		position: absolute;
+		left:0;
+    content: open-quote;
+    margin-left: 23%;
+    vertical-align: -0.15em;
+  }
+  .commentOwner::after {
+    content: close-quote;
+    vertical-align: 0.3em;
+    margin-left: 98%;
+  }
+.ownerLoreta{
+  position: relative;
+  float: right;
+  top: 40px;
+   
+}
+.ownerLoreta span{
+  position: relative;
+  left: 55px;
+}
+
+
+
+
+@media (max-width: 400px) {
     .toggle-button {
       display: flex;
     }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icons8-networking_manager</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1046.000000, -955.000000)" fill-rule="nonzero" id="Why-us">
+            <g transform="translate(120.000000, 753.000000)">
+                <g id="3" transform="translate(818.000000, 202.000000)">
+                    <g id="Text">
+                        <g id="icons8-networking_manager" transform="translate(108.000000, 0.000000)">
+                            <polygon id="Path" fill="#64B5F6" points="53.952 38.4 48.912 38.4 33.376 25.6 38.4 25.6"></polygon>
+                            <polygon id="Path" fill="#64B5F6" points="30.624 25.6 15.088 38.4 10.048 38.4 25.6 25.6"></polygon>
+                            <path d="M11.2,9.6 L11.2,3.2 C11.2,1.432 12.632,0 14.4,0 L49.6,0 C51.368,0 52.8,1.432 52.8,3.2 L52.8,9.6 L11.2,9.6 Z" id="Path" fill="#1F292E"></path>
+                            <path d="M11.2,6.4 L52.8,6.4 L52.8,24 C52.8,25.768 51.368,27.2 49.6,27.2 L14.4,27.2 C12.632,27.2 11.2,25.768 11.2,24 L11.2,6.4 Z" id="Path" fill="#BBDEFB"></path>
+                            <rect id="Rectangle" fill="#42A5F5" x="24" y="11.2" width="22.4" height="3.2"></rect>
+                            <rect id="Rectangle" fill="#42A5F5" x="17.6" y="11.2" width="3.2" height="3.2"></rect>
+                            <rect id="Rectangle" fill="#42A5F5" x="24" y="17.6" width="22.4" height="3.2"></rect>
+                            <rect id="Rectangle" fill="#42A5F5" x="17.6" y="17.6" width="3.2" height="3.2"></rect>
+                            <rect id="Rectangle" fill="#1F292E" x="0" y="36.8" width="28.8" height="20.8"></rect>
+                            <rect id="Rectangle" fill="#BBDEFB" x="3.2" y="40" width="22.4" height="12.8"></rect>
+                            <rect id="Rectangle" fill="#455A64" x="11.2" y="57.6" width="6.4" height="3.2"></rect>
+                            <path d="M20.8,60.8 C17.6,60.8 11.2,60.8 8,60.8 C4.8,60.8 4.8,64 4.8,64 L24,64 C24,64 24,60.8 20.8,60.8 Z" id="Path" fill="#455A64"></path>
+                            <rect id="Rectangle" fill="#1F292E" x="35.2" y="36.8" width="28.8" height="20.8"></rect>
+                            <rect id="Rectangle" fill="#BBDEFB" x="38.4" y="40" width="22.4" height="12.8"></rect>
+                            <rect id="Rectangle" fill="#455A64" x="46.4" y="57.6" width="6.4" height="3.2"></rect>
+                            <path d="M56,60.8 C52.8,60.8 46.4,60.8 43.2,60.8 C40,60.8 40,64 40,64 L59.2,64 C59.2,64 59.2,60.8 56,60.8 Z" id="Path" fill="#455A64"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
