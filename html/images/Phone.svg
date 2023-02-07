@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="23px" viewBox="0 0 12 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Phone</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-120.000000, -5075.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Footer" transform="translate(0.000000, 4719.000000)">
+                <g id="Phone" transform="translate(120.000000, 356.000000)">
+                    <g id="Shape">
+                        <path d="M10,0 L10,2 L2,2 C0.895,2 0,2.895 0,4 L0,21 C0,22.1 0.9,23 2,23 L10,23 C11.1,23 12,22.1 12,21 L12,3 L12,2 L12,0 L10,0 Z M3,4 L9,4 C9.552,4 10,4.448 10,5 L10,9 C10,9.552 9.552,10 9,10 L3,10 C2.448,10 2,9.552 2,9 L2,5 C2,4.448 2.448,4 3,4 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

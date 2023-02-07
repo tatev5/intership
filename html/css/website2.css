@@ -1,90 +1,92 @@
 * {
-   
-    margin: 0;
-    padding: 0;
-  }
-  body{
-    background-color: #f5f0f0;
-  }
- .parent{
-  background:url(../images/forest-nature-cabin.jpeg) no-repeat;
-    width: 100vw;
-    height: 75vh;
-    background-size: cover;
- } 
-  
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    position: relative;
-    top: 30px;
-  }
-  
-  .brand-title {
-    font-size: 35px;
-    margin: 0.8rem;
-    position: relative;
-    left: 40px;
-   
-  }
-  
-  .navbar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .navbar-links li {
-    list-style: none;
-  }
-  
- 
-  
-  .navbar-links li a {
-    text-decoration: none;
-    color: #cdcccc;
-    padding: 1rem;
-    display: block;
-  }
-  
-  .toggle-button {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 28px;
-    height: 21px;
-  }
-  
-  .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-  }
-  .titleandparagraph{
-    position: relative;
-    top: 50%;
-    margin-left: 55px;
-  }
-  .titleHolidays{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-.paragraph{
+body {
+  background-color: #f5f0f0;
+}
+
+.parent {
+  background: url(../images/forest-nature-cabin.jpeg) no-repeat;
+  width: 100vw;
+  height: 75vh;
+  background-size: cover;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 30px;
+}
+
+.brand-title {
+  font-size: 35px;
+  margin: 0.8rem;
+  position: relative;
+  left: 40px;
+
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #cdcccc;
+  padding: 1rem;
+  display: block;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.titleandparagraph {
+  position: relative;
+  top: 50%;
+  margin-left: 55px;
+}
+
+.titleHolidays {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.paragraph {
   width: 500px;
   color: white;
 }
 
-.listbutton{
+.listbutton {
   width: 250px;
   height: 40px;
   background-color: #2a4469;
@@ -95,84 +97,94 @@
   color: white;
   cursor: pointer;
 }
-.navbar-links{
+
+.navbar-links {
   position: relative;
   right: 40px;
 }
 
-.completeSecondPeace{
+.completeSecondPeace {
   background-color: white;
-    width: 90vw;
-    height: 55vh;
-    position: relative;
-    top: 425px;
-    left: 55px;
-    border-radius: 8px;
+  width: 90vw;
+  height: 55vh;
+  margin-top: 400px; 
+  margin-left: 55px;
+  border-radius: 8px;
 }
-.professionally{
+
+.professionally {
   display: flex;
   margin-top: 155px;
-  margin-left:15% ;
+  margin-left: 15%;
 }
-.title-proff{
+
+.title-proff {
   margin: 0 auto;
   width: 900px;
   position: relative;
   top: 55px;
 }
-.professionally div img{
+
+.professionally div img {
   margin-left: 50%;
 }
-.spantext{
+
+.spantext {
   margin-left: 40%;
   font-weight: bold;
   font-size: 20px;
 }
-.text3{
+
+.text3 {
   position: relative;
   left: 20px;
 }
-.imgandtext{
+
+.imgandtext {
   margin-top: 40px;
 }
 
 
-.paragraphText{
+.paragraphText {
   position: relative;
-    top: 20px;
-    width: 340px;
-    text-align: center;
-    margin-left: 50px;
-    color: gray;
+  top: 20px;
+  width: 340px;
+  text-align: center;
+  margin-left: 50px;
+  color: gray;
 }
-.expertsTechnology{
-  margin-top: 500px;
+
+.expertsTechnology {
+  margin-top: 150px;
   margin-left: 55px;
-
-
 }
-.expertsTechnology p{
+
+.expertsTechnology p {
   color: gray;
   font-size: 20px;
 }
 
 
-.TechnologyHospital{
+.TechnologyHospital {
   width: 90vw;
   height: 55vh;
+  margin-left: 55px;
 }
-.techDiv{
+
+.techDiv {
   display: flex;
   margin-top: 155px;
-  margin-left: 10%;
 }
-.circle{
+
+.circle {
   display: flex;
   margin-left: 16%;
 }
-.expertsTechnology h1{
- font-size: 45px;
+
+.expertsTechnology h1 {
+  font-size: 45px;
 }
+
 .top-circle {
   width: 6rem;
   height: 3rem;
@@ -180,54 +192,63 @@
   border-radius: 10rem 10rem 0 0;
   margin-left: 45%
 }
-.main-sec,.main-thrd{
+
+.main-sec,
+.main-thrd {
   margin-left: 40px;
 }
-.bottom-circle{
+
+.bottom-circle {
   width: 6rem;
   height: 3rem;
   background-color: #1a6f9d;
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   margin-left: 45%;
 }
-.left-circle{
+
+.left-circle {
   width: 3rem;
   height: 6rem;
   background-color: #1a6f9d;
   border-radius: 100% 0 0 100%/50% 0 0 50%;
   margin-left: 24%;
 }
-.right-circle{
+
+.right-circle {
   width: 3rem;
   height: 6rem;
   background-color: #77cefd;
   border-radius: 0 100% 100% 0/0 50% 50% 0;
   margin-left: 5%;
 }
-.spantextHosAndBus{
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 35%
+
+.spantextHosAndBus {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 35%
 }
 
-.textParagraphs{
+.textParagraphs {
+  line-height: 25px;
   position: relative;
-    top: 20px;
-    width: 270px;
-    text-align: center;
-    margin-left: 50px;
-    color: gray;
+  top: 20px;
+  width: 270px;
+  text-align: center;
+  margin-left: 50px;
+  color: gray;
 }
 
-.spantextHosAndBus3{
+.spantextHosAndBus3 {
   font-weight: bold;
   font-size: 30px;
   margin-left: 14%;
 }
-.gueestHouser{
+
+.gueestHouser {
   color: black;
 }
-.mini-top-circle{
+
+.mini-top-circle {
   width: 50px;
   height: 30px;
   background-color: #1a6f9d;
@@ -235,7 +256,7 @@
   transform: rotate(320deg);
 }
 
-.mini-left-circle{
+.mini-left-circle {
   width: 50px;
   height: 30px;
   background-color: #77cefd;
@@ -244,7 +265,8 @@
   left: 15px;
   transform: rotate(45deg);
 }
-.mini-right-circle{
+
+.mini-right-circle {
   width: 50px;
   height: 30px;
   background-color: #77cefd;
@@ -253,47 +275,58 @@
   top: 27px;
   transform: rotate(227deg);
 }
-.mini-bottom-circle{
+
+.mini-bottom-circle {
   width: 50px;
-    height: 30px;
-    background-color: #1a6f9d;
-    border-radius: 10rem 10rem 0 0;
-    position: relative;
-    left: 11px;
-    top: 32px;
-    transform: rotate(142deg);
+  height: 30px;
+  background-color: #1a6f9d;
+  border-radius: 10rem 10rem 0 0;
+  position: relative;
+  left: 11px;
+  top: 32px;
+  transform: rotate(142deg);
 }
-.circle-mini{
+
+.circle-mini {
   display: flex;
   margin-left: 36%;
 }
-.imgandtext3{
+
+.imgandtext3 {
   margin-top: 110px;
 }
-.imgandtext2{
+
+.imgandtext2 {
   margin-top: 75px;
 }
-.TestIm{
+
+.TestIm {
   margin-left: 55px;
+  margin-top: 50px;
 }
-.titleTestimonials{
+
+.titleTestimonials {
   font-size: 40px;
 }
-.TestIm p{
+
+.TestIm p {
   position: relative;
-  top:5px;
+  top: 5px;
   color: gray;
   font-size: 20px;
 }
-.GuestHouserOwner{
-  margin-left: 110px;
-  margin-top:50px;
+
+.GuestHouserOwner {
+  margin-left: 160px;
+  margin-top: 50px;
   display: flex;
 }
-.GuestHouserOwner img{
+
+.GuestHouserOwner img {
   width: 235px;
 }
-.commentOwner{
+
+.commentOwner {
 
   background-color: white;
   width: 48%;
@@ -304,7 +337,8 @@
   border-radius: 10px;
 
 }
-.commentOwner> p{
+
+.commentOwner>p {
   line-height: 25px;
   width: 78%;
   justify-content: space-between;
@@ -312,73 +346,156 @@
   align-items: center;
   font-size: 18px;
 }
-  .commentOwner::before,
-  .commentOwner::after {
-    color: #c6c6c6;
-    font-size: 11rem;
-    font-weight: 400;
-    line-height: 0.1em;
-  }
-  .commentOwner::before {
-		position: absolute;
-		left:0;
-    content: open-quote;
-    margin-left: 23%;
-    vertical-align: -0.15em;
-  }
-  .commentOwner::after {
-    content: close-quote;
-    vertical-align: 0.3em;
-    margin-left: 98%;
-  }
-.ownerLoreta{
+
+.commentOwner::before,
+.commentOwner::after {
+  color: #c6c6c6;
+  font-size: 11rem;
+  font-weight: 400;
+  line-height: 0.1em;
+}
+
+.commentOwner::before {
+  position: absolute;
+  left: 0;
+  content: open-quote;
+  margin-left: 26%;
+  vertical-align: -0.15em;
+}
+
+.commentOwner::after {
+  content: close-quote;
+  vertical-align: 0.3em;
+  margin-left: 98%;
+}
+
+.ownerLoreta {
   position: relative;
   float: right;
   top: 40px;
-   
+
 }
-.ownerLoreta span{
+
+.ownerLoreta span {
   position: relative;
   left: 55px;
 }
 
+.card img {
+  margin-left: 24px;
+  width: 400px;
+  filter: grayscale(100%);
+}
 
 
+.card4{
+  margin-top: 60px;
+}
+.card {
+  width: 425px;
+  height: 545px;
+  background: white;
+  margin-left: 125px;
+}
+.card3 img{
+  width: 326px;
+}
+.parentCard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-top: 50px;
+}
+.coreTeam h1{
+  margin-left: 140px;
+  margin-top: 100px;
+}
+.textsCeo{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.textsCeo span{
+  color: #b1adad;
+  font-size: 15px;
+}
+.textsCeo p{
+  line-height: 21px;
+    width: 366px;
+    font-size: 17px;
+}
+.textsCeo h5{
+  color: black;
+  font-size: 20px;
+}
+.footer{
+  background-color: #05051f;
+  width: 96vw;
+  height: 40vh;
+  color: white;
+  padding-left: 55px;
+}
+
+.footer h1{
+  padding-top: 70px;
+}
+.footer button{
+  margin-top: 30px;
+}
+.footer p{
+  color: #b1adad;
+}
+
+.footerContacts{
+  margin-top:50px
+}
+.mail{
+  margin-left: 50px;
+  position: relative;
+  top: 2px;
+}
+.phone{
+  position: relative;
+  top: 5px;
+}
+.textMail{
+  position: relative;
+  left: 5px;
+}
 
 @media (max-width: 400px) {
-    .toggle-button {
-      display: flex;
-    }
-  
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .navbar-links {
-      display: none;
-      width: 100%;
-    }
-  
-    .navbar-links ul {
-      width: 100%;
-      flex-direction: column;
-    }
-  
-    .navbar-links li {
-      text-align: center;
-    }
-  
-    .navbar-links li a {
-      padding: 0.5rem 1rem;
-    }
-    
-    .navbar-links.active {
-      display: flex;
-    }
-    .brand-title{
-        position: relative;
-       left: 14rem;
-    }
+  .toggle-button {
+    display: flex;
   }
-  
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .brand-title {
+    position: relative;
+    left: 14rem;
+  }
+}
