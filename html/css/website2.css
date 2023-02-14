@@ -463,7 +463,7 @@ body {
   left: 5px;
 }
 
-@media (max-width: 400px) {
+@media  screen and (min-width: 200px) and (max-width: 600px)  {
   .toggle-button {
     display: flex;
   }
@@ -499,4 +499,142 @@ body {
     position: relative;
     left: 14rem;
   }
+  .titleHolidays{
+    font-size: 25px;
+  }
+  .titleandparagraph {
+   margin-left: 6px;
+   text-align: center;
+  }
+  .paragraph{
+    width: 353px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  .completeSecondPeace {
+    background-color: white;
+    width: 100vw;
+    height: 125vh;
+    margin-top: 290px;
+    margin-left: 15px;
+    border-radius: 8px;
+  }
+  
+  .title-proff {
+      margin: 0 auto;
+      width: 265px;
+      position: relative;
+      top: 25px;
+      text-align: center;
+      font-size: 17px;
+  }
+  .professionally {
+    display: block;
+    margin-top: 65px; 
+}
+.professionally div img {
+  margin-left: 25%;
+}
+.imgandtext {
+  margin-top: 15px;
+}
+.spantext {
+  margin-left: 7%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.paragraphText{
+  margin-left: -59px;
+}
+.second{
+  margin-top: 50px;
+}
+.expertsTechnology h1 {
+  font-size: 19px;
+  text-align: center;
+}
+.expertsTechnology {
+  margin-top: 50px;
+  margin-left: 11px;
+}
+.expertsTechnology p {
+ text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.TechnologyHospital {
+  width: 100vw;
+  height: 830px;
+  margin-left: 0;
+}
+.techDiv {
+  display: block;
+  margin-top: 50px;
+}
+.imgandtext2 {
+  margin-top: 35px;
+}
+.spantextHosAndBus {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 38%;
+}
+.main-sec, .main-thrd{
+  margin-top: 50px;
+}
+.spantextHosAndBus3{
+  font-size: 25px;
+  margin-left: 15%;
+}
+.titleTestimonials {
+  font-size: 25px;
+  text-align: center;
+}
+.TestIm p{
+  font-size: 12px;
+}
+
+.GuestHouserOwner{
+  margin-left: 100px;
+    margin-top: 50px;
+    display: block;
+}
+.commentOwner{
+  background-color: #f5f0f0;
+  width: 430px;
+  margin-left: 0;
+  text-align: center;
+}
+
+.commentOwner>p{
+  line-height: 25px;
+  margin-left: -85px;
+    font-size: 15px;
+}
+.commentOwner::before{
+  display: none;
+}
+.commentOwner::after{
+  display: none;
+}
+.ownerLoreta {
+  margin-left: -260px;
+position: unset;
+float:unset;
+}
+.ownerLoreta span {
+    position: unset;
+    
+}
+.coreTeam h1{
+  margin-left: 80px;
+    margin-top: 100px;
+}
+.parentCard{
+  display: block;
+}
+.card{
+  margin-left:0 ;
+}
 }
