@@ -1,0 +1,36 @@
+.main{
+    width: 1000px;
+    border-style: outset;
+    height: 750px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 8px 9px #d4d1d1;
+    font-family: 'Comic Sans MS';
+
+}
+.first-child{
+    display: flex;
+}
+.titleColor{
+    color: #6CBFEC;
+    width: 300px;
+}
+.first-title{
+    margin: 25px auto; 
+   
+}
+.first-child p{
+    margin-left: 35px;
+  
+}
+.secondTitle{
+margin: 10px 370px;
+}
+.paragraph,.first-child img{
+    margin-left: 25px;
+}
+.thirdTitle{
+    margin-top: 150px;
+    margin-left: 25px;
+}

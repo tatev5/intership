@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0
+}
+.first,.sec,.third{
+    width: 100vw;
+    height: 34vh;
+}
+.first{
+    background-color: black
+}
+.sec{
+    background-color: red;
+}
+.third{
+    background-color: yellow;
+}
