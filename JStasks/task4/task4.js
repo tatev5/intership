@@ -125,15 +125,18 @@ console.log(arr);
 
 console.log('  ')
 
+let numberCount=0;
+
 arr = ["Hello", 15, "World", true, 89, 157, [1, 3, 7]]
 
 //15. Գտնել զանգվածի էլեմենտներից քանիսի տիպն է number
 
 for (let i of arr) {
   if (typeof i === 'number') {
-    console.log(i)
+     numberCount++
   }
 }
+console.log(numberCount)
 
 console.log('  ')
 
